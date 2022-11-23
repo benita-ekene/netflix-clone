@@ -5,12 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Netflix Clone</title>
+  <title>Netflix Landing Webpage</title>
 </head>
 <body>
-  <header></header>
+  <section class="hero-section">
+    <header class="header-wraper">
+      <img src="img/logo.png" alt="logo" class="logo-img">
+      <button  class="sign-in-button"><a href="https://www.netflix.com/ke/login"> Sign In</a></button>
+     </header>
+     <Div class="comtent">
+        <div class="hero-text">
+          <h1>Unlimited movies, TV shows, and more.</h1>
+          <p>Watch anywhere. Cancel anytime.
+          </p>
+        </div>
+        <form>
+          <div class="form-control">
+            <label for="email" class="label-for">Ready to watch? Enter your email to create or restart your membership.
+            </label>
+          </div>
+          <div class="input-control">
+             <input type="email" placeholder="Email address" class="email-input">
+            <div type="submit" class="started-button"> Get Started ></div> 
+          </div>
+        </form>
+     </Div>
+  </section>
 
-  <section class="hero-section"></section>
   <section class="tv-section"></section>
   <section class="offline-section"></section>
   <section class="watch-everywhere"></section>
