@@ -154,14 +154,61 @@ p {
   border-top: solid 5px rgb(59, 54, 54);
   border-bottom: solid 5px rgb(65, 58, 58);
   background-color: black;
-  height: 75vh;
+  height: 70vh;
   display: flex;
  justify-content: space-between;
  align-items: center;
- width: 90%;
+ width: 85%;
  margin: 0 auto;
  background-size: cover;
 }
+
+.ofline-img {
+  width: 500px;
+  height: 300px;
+  margin-right: 90px;
+}
+
+
+.kids-section {
+  border-top: solid 5px rgb(59, 54, 54);
+  border-bottom: solid 5px rgb(65, 58, 58);
+  background-color: black;
+  height: 80vh;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ margin: 10px auto;
+ background-size: cover;
+ padding-left: 60px;
+ padding-right: 130px;
+}
+
+.kid-img {
+  width: 470px;
+  height: 370px;
+  margin-right: 90px; 
+}
+
+
+.watch-everywhere {
+  border-top: solid 5px rgb(59, 54, 54);
+  border-bottom: solid 5px rgb(65, 58, 58);
+  background-color: black;
+  height: 40vh;
+ justify-content: space-between;
+ width: 100%;
+ margin: 0 auto;
+ background-size: cover;
+}
+
+.everywhere-text {
+  width: 40%;
+  padding-top: 50px;
+  margin-left: 150px;
+}
+
 
 .FAQ-section {
   border-top: solid 5px rgb(59, 54, 54);
@@ -261,6 +308,7 @@ height: 30px;
  margin-right: 270px;
  padding-top: 20px;
  padding-bottom: 20px;
+ padding-right: 35px;
 }
 
 .input-control2 {
@@ -270,7 +318,6 @@ height: 30px;
  flex-direction: row;
  align-items: center; 
  font-size: 18px;
- padding-left: 28px;
  background-size: cover;
 }
 
